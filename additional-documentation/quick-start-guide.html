@@ -1,0 +1,740 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Jexia Javascript SDK</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Jexia Javascript SDK</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">Jexia Javascript SDK</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-fw fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../changelog.html"
+                                    >
+                                        <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                                    </a>
+                                </li>
+                                <li class="link">
+                                        <a href="../contributing.html"
+                                    >
+                                        <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                                    </a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                                <li class="link">
+                                    <a href="../dependencies.html"
+                                        
+                                        >
+                                        <span class="fa fa-fw fa-list"></span>Dependencies
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-additional-pages"
+                            >
+                            <span class="fa fa-fw fa-book"></span>
+                            <span>Additional documentation</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-additional-pages"
+                            >
+                                <li class="link ">
+                                    <a href="../additional-documentation/quick-start-guide.html"  data-type="entity-link" class="active" >Quick Start Guide</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-fw fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/ApiKeyAuth.html" >ApiKeyAuth</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/BaseAuth.html" >BaseAuth</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/Client.html" >Client</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DataOperationsModule.html" >DataOperationsModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DataRequest.html" >DataRequest</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/DeleteQuery.html" >DeleteQuery</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/FieldFilter.html" >FieldFilter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/FilteringCriterion.html" >FilteringCriterion</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/InsertQuery.html" >InsertQuery</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/RTCModule.html" >RTCModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/SelectQuery.html" >SelectQuery</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/UpdateQuery.html" >UpdateQuery</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../classes/UserCredentialsAuth.html" >UserCredentialsAuth</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                            <li class="chapter">
+                                <div class="simple menu-toggler" data-toggle="collapse"
+                                        data-target="#xs-injectables-links"
+                                    >
+                                    <span class="fa fa-fw fa-long-arrow-down"></span>
+                                    <span>Injectables</span>
+                                    <span class="fa fa-angle-down"></span>
+                                </div>
+                                <ul class="links collapse "
+                                        id="xs-injectables-links"
+                                    >
+                                        <li class="link">
+                                            <a href="../injectables/Dataset.html" >Dataset</a>
+                                        </li>
+                                </ul>
+                            </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-interfaces-links"
+                            >
+                            <span class="fa fa-fw fa-info"></span>
+                            <span>Interfaces</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-interfaces-links"
+                            >
+                                <li class="link">
+                                    <a href="../interfaces/IExecutable.html" >IExecutable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IFieldFilter.html" >IFieldFilter</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IFields.html" >IFields</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IFilterable.html" >IFilterable</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IFilteringCriterion.html" >IFilteringCriterion</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IFilteringCriterionCallback.html" >IFilteringCriterionCallback</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/ILimit.html" >ILimit</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IOffset.html" >IOffset</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IRelational.html" >IRelational</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/IResource.html" >IResource</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../interfaces/ISortable.html" >ISortable</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-fw fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/typealiases.html" data-type="entity-link" >Type aliases</a>
+                                </li>
+                                <li class="link">
+                                  <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="../images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">Jexia Javascript SDK</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-fw fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../changelog.html"
+                                           >
+                                               <span class="fa fa-fw fa-file-text-o"></span>CHANGELOG
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../contributing.html"
+                                           >
+                                               <span class="fa fa-fw fa-file-text-o"></span>CONTRIBUTING
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-fw fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../dependencies.html"
+                                               
+                                               >
+                                               <span class="fa fa-fw fa-list"></span>Dependencies
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#additional-pages"
+                   >
+                                   <span class="fa fa-fw fa-book"></span>
+                                   <span>Additional documentation</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="additional-pages"
+                   >
+                                       <li class="link ">
+                                           <a href="../additional-documentation/quick-start-guide.html"  data-type="entity-link" class="active" >Quick Start Guide</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-fw fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/ApiKeyAuth.html" >ApiKeyAuth</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/BaseAuth.html" >BaseAuth</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/Client.html" >Client</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DataOperationsModule.html" >DataOperationsModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DataRequest.html" >DataRequest</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/DeleteQuery.html" >DeleteQuery</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/FieldFilter.html" >FieldFilter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/FilteringCriterion.html" >FilteringCriterion</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/InsertQuery.html" >InsertQuery</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/RTCModule.html" >RTCModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/SelectQuery.html" >SelectQuery</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/UpdateQuery.html" >UpdateQuery</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../classes/UserCredentialsAuth.html" >UserCredentialsAuth</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                                   <li class="chapter">
+                                       <div class="simple menu-toggler" data-toggle="collapse"
+                                               data-target="#injectables-links"
+                   >
+                                           <span class="fa fa-fw fa-long-arrow-down"></span>
+                                           <span>Injectables</span>
+                                           <span class="fa fa-angle-down"></span>
+                                       </div>
+                                       <ul class="links collapse "
+                                               id="injectables-links"
+                   >
+                                               <li class="link">
+                                                   <a href="../injectables/Dataset.html" >Dataset</a>
+                                               </li>
+                                       </ul>
+                                   </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#interfaces-links"
+                   >
+                                   <span class="fa fa-fw fa-info"></span>
+                                   <span>Interfaces</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="interfaces-links"
+                   >
+                                       <li class="link">
+                                           <a href="../interfaces/IExecutable.html" >IExecutable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IFieldFilter.html" >IFieldFilter</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IFields.html" >IFields</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IFilterable.html" >IFilterable</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IFilteringCriterion.html" >IFilteringCriterion</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IFilteringCriterionCallback.html" >IFilteringCriterionCallback</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/ILimit.html" >ILimit</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IOffset.html" >IOffset</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IRelational.html" >IRelational</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/IResource.html" >IResource</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../interfaces/ISortable.html" >ISortable</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-fw fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/functions.html" data-type="entity-link" >Functions</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/typealiases.html" data-type="entity-link" >Type aliases</a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../miscellaneous/variables.html" data-type="entity-link" >Variables</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="../images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content additional-page">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 id="quick-start-guide-for-the-javascript-sdk">Quick Start Guide for the Javascript SDK</h1>
+<p>The SDK currently exposes the following features:</p>
+<ul>
+<li>on-demand access to data stored in DataSets (creating, reading, updating, deleting records)</li>
+<li>Authentication and authorization is handled automatically by the SDK, the user only needs to provide credentials once at SDK initialization.</li>
+</ul>
+<p>The SDK is currently focused on <em>consuming</em> data. <em>Managing</em> the data schema (creating Datasets, adding columns to Datasets, etc.) is out of scope for now. The data schema management is done through our web application at <a href="app.jexia.com">app.jexia.com</a>.</p>
+<h3 id="on-demand-data-access">On-demand data access</h3>
+<p>The user can execute the following operations on records:</p>
+<ul>
+<li>create</li>
+<li>read</li>
+<li>update</li>
+<li>delete</li>
+</ul>
+<p>Executing an operation on a set of records is done through a Query. Depending on their type, Queries give the user access to some (or all) of the following options:</p>
+<ul>
+<li>filtering (only records satisfying a certain condition will be retrieved/affected)</li>
+<li>sorting (the records will be sorted by a rule and direction before the action is executed)</li>
+<li>limiting/offsetting (only a certain number of records, starting from a certain position in the Dataset will be affected)</li>
+<li>selecting the fields to be retrieved (when the user does not want the entire record to be retrieved, only certain columns)</li>
+<li>relations (records from related datasets, as instructed, will also be affected by the request)</li>
+</ul>
+<p>All these features are handled server-side. Right now there is no client-side functionality implemented for filtering, sorting, etc. </p>
+<h2 id="code-samples">Code samples</h2>
+<p>Please keep in mind that this quick start guide uses Javascript 2017 syntax.</p>
+<p>The examples are made with a simple data schema in mind: think a basic social media platform where <code>users</code> can write <code>posts</code> and/or <code>comments</code> to <code>posts</code>. A <code>post</code> can be related to any number of <code>comments</code>, while each <code>post</code> and each <code>comment</code> has a <code>user</code> as author.</p>
+<h3 id="importing-the-sdk-into-your-js-project">Importing the SDK into your JS project</h3>
+<pre class="line-numbers"><code class="language-Javascript">import { jexiaClient } from &quot;Anemo SDK location&quot;;</code></pre><h3 id="initialization-and-authentication">Initialization and Authentication</h3>
+<p>The <code>jexiaClient()</code> function will return an instance of the <code>Client</code> class. You can provide a custom <code>fetch</code> standard compliant function as a parameter, as default we are using are using <code>node-fetch</code> package at NodeJS, and the native <code>fetch</code> implementation on at the browser.</p>
+<pre class="line-numbers"><code class="language-Javascript">import { jexiaClient } from &quot;Anemo SDK location&quot;;
+
+let initializedClientPromise = jexiaClient().init({projectID: &quot;your Jexia App URL&quot;, key: &quot;username&quot;, secret: &quot;password&quot;});
+initializedClientPromise.then( (initializedClient) =&gt; {
+  // you have been succesfully logged in!
+}).catch( (error) =&gt; {
+  // uh-oh, there was a problem logging in, check the error.message for more info
+});</code></pre><h3 id="the-module-system">The Module system</h3>
+<p>The Jexia SDK is built as a set of modules (or plugins) structured around a core entity (the <code>Client</code> class used above).
+In order to use a module you need to:</p>
+<ul>
+<li>initialize it</li>
+<li>pass it to the <code>Client</code> when calling the <code>.init()</code> method</li>
+</ul>
+<p>Probably the most useful module is the Data Operation Module (<code>DataOperationsModule</code> class). The example below will show how to initialize the SDK using this module. Follow the <code>dataModule</code> variable to see how this mechanism works.</p>
+<p>The modules await the client initialization before make any operation that depends on it, so you don&#39;t need to manually await the client initialization promise.</p>
+<pre class="line-numbers"><code class="language-Javascript">import { jexiaClient, dataOperations } from &quot;Anemo SDK Location&quot;;
+
+let dataModule = dataOperations();
+
+jexiaClient().init({projectID: &quot;your Jexia App URL&quot;, key: &quot;username&quot;, secret: &quot;password&quot;}, dataModule);
+
+dataModule.dataset(&quot;posts&quot;)
+  .select()
+  .then( (data) =&gt; {
+    // you have been succesfully logged in!
+    // you can start using the dataModule variable to operate on records here
+  }).catch( (error) =&gt; {
+    // uh-oh, there was a problem logging in, check the error.message for more info
+  });</code></pre><h3 id="dataset-objects-and-query-objects">Dataset objects and Query objects</h3>
+<p>Using an initialized <code>DataOperationsModule</code> object, you can instantiate <code>Dataset</code> objects like so:</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let postsDataset = dataModule.dataset(&quot;posts&quot;);
+[..]</code></pre><p>Using a <code>Datase</code> object, you can instantiate a <code>Query</code> object, depending on the type of query you want to execute</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let selectQuery = postsDataset.select();
+let insertQuery = postsDataset.insert( [ post1, post2 ] );
+let updateQuery = postsDataset.update( [ title: &quot;Updated title&quot; ] );
+let deleteQuery = postsDataset.delete();
+[..]</code></pre><p>Any <code>Query</code> can be executed by calling <code>.execute()</code> on it. This results in a <code>Promise</code> resolving to a set of records, regardless of the type of <code>Query</code> executed. For select queries, the records returned are the records that the user wants to retrieve. For the other queries, the records returned are the actual records that have been operated on (modified, added or deleted).</p>
+<p>Each different <code>Query</code> type has different support for the query options (filtering, sorting, etc.). E.g. you cannot apply filtering to insert queries, as the method isn&#39;t defined on the <code>InsertQuery</code> object.</p>
+<h3 id="our-first-query-selecting-all-records-in-a-dataset">Our first query: selecting all records in a dataset</h3>
+<p>Using all the temporary variables in this example is for demonstration purposes, mostly to point out the different objects and functionality involved when working with records.</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+jexiaClient(fetch).init({projectID: &quot;your Jexia App URL&quot;, key: &quot;username&quot;, secret: &quot;password&quot;}, dataModule);
+
+let postsDataset = dataModule.dataset(&quot;posts&quot;);
+let unexecutedQuery = postsDataset.select();
+let executedQueryPromise = unexecutedQuery.execute();
+
+executedQueryPromise.then( (records) =&gt; {
+  // you can start iterating through the posts here
+}).catch( (error) =&gt; {
+  // there was a problem retrieving the records
+});
+[..]</code></pre><p>If you watch closely, the API is chainable, so you can rewrite the query in a much less verbose way:</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+jexiaClient(fetch).init({projectID: &quot;your Jexia App URL&quot;, key: &quot;username&quot;, secret: &quot;password&quot;}, dataModule);
+
+dataModule.dataset(&quot;posts&quot;)
+  .select()
+  .execute()
+  .then( (records) =&gt; {
+    // you can start iterating through the posts here
+  }).catch( (error) =&gt; {
+    // there was a problem retrieving the records
+  });
+[..]</code></pre><p>But at the very least, defining dataset variables could come in handy when executing multiple different queries on the same dataset.</p>
+<h3 id="sorting-records">Sorting records</h3>
+<p>To activate sorting, you need to call <code>.sortAsc</code> or <code>.sortDesc</code> on a <code>Query</code> object and pass as string the name of the field you want to sort by.</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+posts.select().sortAsc(&quot;id&quot;).execute().then( (records) =&gt; {
+  // operate on your sorted records here
+});
+[..]</code></pre><h3 id="limit-and-offset">Limit and offset</h3>
+<p>You can use <code>.limit</code> and <code>.offset</code> on a <code>Query</code> object for these options. They can be used separately or together. Only setting the limit (to a value X) will make the query operate on the first X records. Only setting the offset will make the query operate on the last Y records, starting from the offset value. </p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+posts.select().limit(2).offset(5).execute().then( (records) =&gt; {
+  // records will be an array of 2 records, starting from position 5 in the Dataset
+});
+[..]</code></pre><h3 id="only-retrieving-certain-fields">Only retrieving certain fields</h3>
+<p>You can use the <code>.fields</code> method to define what fields you want to retrieve.</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+posts.select().fields(&quot;id&quot;, &quot;title&quot;).execute().then( (records) =&gt; {
+  // the individual record objects will only have the two properties defined above
+});
+[..]</code></pre><h3 id="filtering-records">Filtering records</h3>
+<p>You can use the filtering feature to select what records a certain query will operate on.</p>
+<p>In order to define a filter, you need to use the appropriate filtering objects. They can be created using the exposed methods <code>field</code> and <code>combineCriteria</code>. <code>combineCriteria</code> is something very specific that provides another way to create nested logical conditions. You&#39;re probably not going to use that much, but it&#39;s useful to know that it exists.</p>
+<pre class="line-numbers"><code class="language-Javascript">import { field } from &quot;Anemo SDK location&quot;;
+
+let simpleCriterion = field(&quot;username&quot;).isEqualTo(&quot;Tom&quot;);
+let combinedCriteria = simpleCriterion.or(field(&quot;username&quot;).isEqualTo(&quot;Dick&quot;));</code></pre><p>In order to use these conditions, they need to be added to a query using the <code>.where</code> method</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+posts.select().where(field(&quot;username&quot;).isEqualTo(&quot;Harry&quot;));
+[..]</code></pre><p>The <code>.where</code> method also accepts a lazy callback, that receives the <code>field</code> method received as an argument:</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+posts.select().where(field =&gt; field(&quot;username&quot;).isEqualTo(&quot;Harry&quot;));
+[..]</code></pre><p>Multiple <code>.where</code> calls can be chained, but only the last call will be taken into account. If a complex condition needs to be set for filtering, it has to be created in one go (in-line or not) and passed as an argument to the <code>.where</code> method.</p>
+<p>Filtering conditions can be nested at any level.</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let flatFilter = field(&quot;first_name&quot;).isEqualTo(&quot;Tom&quot;)
+                 .or( field(&quot;first_name&quot;).isEqualTo(&quot;Dick&quot;))
+                 .or( field(&quot;first_name&quot;).isEqualTo(&quot;Harry&quot;));
+
+let nestedFilter = field(&quot;first_name&quot;).isEqualTo(&quot;Tom&quot;)
+                   .or( field(&quot;first_name&quot;).isEqualTo(&quot;Dick&quot;)
+                        .and( field(&quot;middle_name&quot;).isEqualTo(&quot;Harry&quot;)));
+
+let anotherNestedFilter = field(&quot;first_name&quot;).isEqualTo(&quot;Tom&quot;)
+                   .or( field(&quot;first_name&quot;).isEqualTo(&quot;Dick&quot;)
+                        .and( field(&quot;middle_name&quot;).isEqualTo(&quot;Harry&quot;)
+                              .or( field(&quot;middle_name&quot;).isEqualTo(&quot;Larry&quot;))));
+[..]</code></pre><h3 id="filtering-operator-list-and-examples">Filtering operator list and examples</h3>
+<p>You can find a complete list of the operators supported for filtering in the API reference document.</p>
+<h3 id="defining-relations">Defining relations</h3>
+<p>Relations can be added to a query in order to have the query apply not only to the main dataset the query is created from, but also to related records from other datasets.</p>
+<p>Retrieving relations:</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let posts = dataModule.dataset(&quot;posts&quot;);
+let comments = dataModule.dataset(&quot;comments&quot;);
+posts.select().relation(comments).execute().then( (records) =&gt; {
+  // objects in the records array will now contain a property called &quot;comments&quot;
+  // which will be an array holding the comments related to a particular post.
+});
+[..]</code></pre><h3 id="inserting-records">Inserting records</h3>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let posts = dataModule.dataset(&quot;posts&quot;);
+posts.insert([ {title: &quot;New Post&quot;, content:&quot;content here&quot;}, 
+               {title: &quot;Another Post&quot;, content:&quot;some more content&quot;} 
+]).execute().then( (records) =&gt; {
+  // you will be able to access the newly inserted records here
+  // complete with their generated IDs
+}).catch( (error) =&gt; {
+  // you can see the error info here, if something goes wrong
+});
+[..]</code></pre><h3 id="updating-records">Updating records</h3>
+<p>The <code>update</code> method is used to modify records, it always has to be used with the <code>where</code> method and a filter criteria.</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let posts = dataModule.dataset(&quot;posts&quot;);
+const filter = field(&quot;id&quot;).isInArray([1, 2]);
+posts.update({
+  title: &quot;Changing title&quot;,
+}).where(filter).execute().then(() =&gt; {
+  // the elements that fill the criteria now have been changed
+}).catch( (error) =&gt; {
+  // you can see the error info here, if something goes wrong
+});</code></pre><h3 id="deleting-records">Deleting records</h3>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+let posts = dataModule.dataset(&quot;posts&quot;);
+posts.delete().where(field(&quot;title&quot;).isLike(&quot;test&quot;)).execute().then( (records) =&gt; {
+  // you will be able to access the deleted records here
+  // they won&#39;t be stored in the DB anymore, but maybe you
+  // want to display a visual confirmation of what got deleted
+}).catch( (error) =&gt; {
+  // you can see the error info here, if something goes wrong
+});
+[..]</code></pre><h2 id="logging-off-and-cleanup">Logging off and cleanup</h2>
+<p>The <code>Client</code> class exposes a method called <code>.terminate()</code> which returns a <code>Promise</code> with the terminated <code>Client</code> instance. Use this to clear up resources used by the <code>Client</code> class and any modules you initialized along with it (you don&#39;t have to pass the modules along, the <code>Client</code> will terminate any modules you supplied on initialization.)</p>
+<pre class="line-numbers"><code class="language-Javascript">[..]
+client.terminate().then( (terminatedClient) =&gt; {
+  // everything has been cleared
+}).catch( (err)=&gt;{
+  // something went wrong when cleaning up
+});
+[..]</code></pre>
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+
+    </body>
+</html>
